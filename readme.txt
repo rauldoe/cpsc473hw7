@@ -17,3 +17,5 @@ ember generate template application
 git branch --set-upstream-to=origin/master
 
 
+git fetch --all
+git reset --hard origin/master
