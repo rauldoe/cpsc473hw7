@@ -13,6 +13,10 @@ ember build --env production
 ember new library-app
 ember generate template application
 
+ember install ember-cli-sass
+ember install ember-cli-bootstrap-sassy
+
+mv app/styles/app.css app/styles/app.scss
 
 git branch --set-upstream-to=origin/master
 
@@ -28,3 +32,7 @@ git reset --hard origin/master
 //or you can do this
 git fetch --all
 git reset --hard origin/master
+
+
+ember install ember-cli-sass && ember install ember-cli-bootstrap-sassy && echo '@import "bootstrap";' > ./app/styles/app.scss && rm ./app/styles/app.css
+
