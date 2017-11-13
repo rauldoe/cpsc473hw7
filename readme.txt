@@ -12,3 +12,8 @@ ember build --env production
 
 ember new library-app
 ember generate template application
+
+
+git branch --set-upstream-to=origin/master
+
+
