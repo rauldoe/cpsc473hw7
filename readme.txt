@@ -19,3 +19,6 @@ git branch --set-upstream-to=origin/master
 
 git fetch --all
 git reset --hard origin/master
+
+//has to delete .git folder in subfolder
+git rm --cached library-app
