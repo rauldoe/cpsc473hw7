@@ -17,8 +17,14 @@ ember generate template application
 git branch --set-upstream-to=origin/master
 
 
-git fetch --all
-git reset --hard origin/master
 
 //has to delete .git folder in subfolder
 git rm --cached library-app
+
+//Setting your branch to exactly match the remote branch can be done in two steps:
+git fetch origin
+git reset --hard origin/master
+
+//or you can do this
+git fetch --all
+git reset --hard origin/master
