@@ -15,7 +15,6 @@ export default Controller.extend({
       alert(`Saving of the following email address in in progress: ${this.get('emailAddress')}`);
       this.set('responseMessage', `Thank you!  We've just saved your email address: ${this.get('emailAddress')}`);
       this.set('emailAddress');
-      this.set('responseMessage', '');
     }
   }
   /*actualEmailAddress: Ember.computed('emailAddress', function(){

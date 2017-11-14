@@ -18,8 +18,6 @@ export default Controller.extend({
       this.set('responseMessage', `Thank you!  We've just saved your email address: ${this.get('emailAddress')} and msg: ${this.get('message')}`);
       this.set('emailAddress', '');
       this.set('message', '');
-      this.set('responseMessage', '');
-
     }
   }
   /*actualEmailAddress: Ember.computed('emailAddress', function(){
