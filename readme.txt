@@ -18,6 +18,12 @@ ember install ember-cli-bootstrap-sassy
 
 mv app/styles/app.css app/styles/app.scss
 
+ember generate route about
+ember generate template index
+ember g controller index
+ember g controller contact
+
+
 git branch --set-upstream-to=origin/master
 
 
